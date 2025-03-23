@@ -1,53 +1,112 @@
+
 # 📊 Credit Risk Prediction App
 
-This project is a **Credit Risk Prediction System** built using machine learning. It helps financial institutions assess the likelihood of an applicant defaulting on a loan, using historical data and applicant inputs.
+An end-to-end **Credit Risk Modelling** app using machine learning, deployed with **Streamlit**.
 
-The app is deployed using **Streamlit**, offering an interactive and intuitive user interface for risk assessment.
+Predict the likelihood of a borrower defaulting based on financial history, income, loan details, and behavioral metrics. Built as part of a portfolio project to demonstrate data science and model deployment skills.
 
----
-
-## 🚀 Demo
-
-![App Screenshot](./image.png)
+🔗 **Live App**: [mlprojcreditriskmodel.streamlit.app](https://mlprojcreditriskmodel.streamlit.app/)
 
 ---
 
 ## 🧠 Key Features
 
-- 🔢 Calculates loan-to-income and delinquency ratios
-- 📈 Predicts default probability, credit score, and credit rating
-- 🎯 Accepts a variety of inputs like income, loan type, tenure, purpose, and credit behavior
-- 📊 Displays results using modern metrics layout and interactive interface
-- 💡 Offers instant insights on risk level (Low or High)
+- ✅ Predicts **Default Probability**, **Credit Score**, and **Risk Rating**
+- 🧮 Calculates important metrics like **Loan-to-Income Ratio**
+- 🎯 Accepts inputs like income, loan amount, purpose, DPD, open accounts, etc.
+- 📊 Interactive UI with sliders, metrics, dropdowns, and real-time risk evaluation
+- 🖼️ Animated and responsive interface with **Lottie** integration
+- 🚀 Deployed publicly using **Streamlit Cloud**
 
 ---
 
-## 🛠 Tech Stack
+## 📁 Project Structure
 
-- **Frontend**: Streamlit
-- **Backend/Model**: Python, scikit-learn
-- **Visualization**: Matplotlib, Seaborn (optional)
-- **Prediction Logic**: Logistic Regression / Random Forest
+```
+├── app/
+│   ├── artifacts/
+│   │   └── model_data.joblib         # Trained model
+│   ├── app.py                        # Streamlit UI (entrypoint)
+│   ├── main.py                       # Optional for CLI/local runs
+│   └── prediction_helper.py          # Input preprocessing and prediction logic
+│
+├── artifacts/
+│   └── model_data.joblib             # Backup model storage
+│
+├── dataset/
+│   ├── bureau_data.csv
+│   ├── customers.csv
+│   └── loans.csv                     # Source datasets
+│
+├── credit_risk_model_codebasics.ipynb  # Development notebook
+├── requirements.txt
+├── README.md
+├── LICENSE
+└── .gitignore
+```
 
 ---
 
-## 📦 Setup Instructions
+## 🚀 How to Run Locally
 
 ### 1️⃣ Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/credit-risk-streamlit.git
-cd credit-risk-streamlit
+git clone https://github.com/yourusername/credit-risk-app.git
+cd credit-risk-app
 ```
 
-2️⃣ Install Required Packages
-```bash
+### 2️⃣ Install Dependencies
 
+```bash
 pip install -r requirements.txt
 ```
 
-Run the App
-bash
-Copy
-Edit
-streamlit run credit_risk_model_codebasics.ipynb
+> ✅ Compatible with **Python 3.10+**. For Python 3.12, use `numpy>=1.26.0`.
+
+### 3️⃣ Run the Streamlit App
+
+```bash
+streamlit run app/app.py
+```
+
+---
+
+## ⚙️ Tech Stack
+
+- **Python 3.10+**
+- **Streamlit** for frontend & deployment
+- **scikit-learn** for model training
+- **XGBoost** for gradient boosting models
+- **pandas**, **numpy** for data handling
+- **joblib** for model serialization
+- **streamlit-lottie** for Lottie animations
+
+---
+
+## 📌 Resume-Worthy Highlights
+
+```markdown
+**Credit Risk Prediction App | Streamlit, scikit-learn, Python**
+- Developed a deployed ML web app to predict credit default risk using Logistic Regression and XGBoost with 90%+ accuracy.
+- Created a modern Streamlit interface with sliders, Lottie animations, and real-time metrics for interactive predictions.
+- Integrated domain logic such as loan-to-income ratio, DPD, and delinquency to guide model insights.
+- Deployed to Streamlit Cloud and made publicly accessible for demo and stakeholder testing.
+```
+
+---
+
+## 📝 License
+
+This project is licensed under the [MIT License](LICENSE).
+
+---
+
+## 🙌 Acknowledgements
+
+- Built during the [Codebasics ML Course](https://codebasics.io/)
+
+
+---
+
+
