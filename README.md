@@ -80,19 +80,11 @@ streamlit run app/app.py
 - **XGBoost** for gradient boosting models
 - **pandas**, **numpy** for data handling
 - **joblib** for model serialization
-- **streamlit-lottie** for Lottie animations
+
 
 ---
 
-## 📌 Resume-Worthy Highlights
 
-```markdown
-**Credit Risk Prediction App | Streamlit, scikit-learn, Python**
-- Developed a deployed ML web app to predict credit default risk using Logistic Regression and XGBoost with 90%+ accuracy.
-- Created a modern Streamlit interface with sliders, Lottie animations, and real-time metrics for interactive predictions.
-- Integrated domain logic such as loan-to-income ratio, DPD, and delinquency to guide model insights.
-- Deployed to Streamlit Cloud and made publicly accessible for demo and stakeholder testing.
-```
 
 ---
 
