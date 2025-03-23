@@ -52,7 +52,7 @@ Predict the likelihood of a borrower defaulting based on financial history, inco
 ### 1️⃣ Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/credit-risk-app.git
+git clone https://github.com/yourusername/Credit_risk_model.git
 cd credit-risk-app
 ```
 
