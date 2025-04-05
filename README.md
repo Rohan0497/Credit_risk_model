@@ -8,15 +8,22 @@ Predict the likelihood of a borrower defaulting based on financial history, inco
 🔗 **Live App**: [Credit Risk Model](https://mlprojcreditriskmodel.streamlit.app/)
 
 ---
-## 🎥 App Demo (Click to Play)
+## 🎥 App Demo
 
+<!-- Full-width auto-playing GIF -->
+<p align="center">
+  <img src="./assets/demo.gif" alt="App demo in action" style="width: 100%; max-width: 1000px; border-radius: 10px;" />
+</p>
+
+<!-- Optional pause/play preview that links to Streamlit -->
 <p align="center">
   <a href="https://mlprojcreditriskmodel.streamlit.app" target="_blank">
-    <img src="./assets/demo_preview.png" alt="Click to play demo" style="max-width: 1000px; width: 100%; border-radius: 10px;" />
+    <img src="./assets/demo_preview_with_play.png" alt="Click to launch app" style="width: 100%; max-width: 1000px; border-radius: 10px;" />
   </a>
   <br/>
-  <em>▶ Click to launch the live interactive demo</em>
+  <em>▶ Click above to explore the full interactive app</em>
 </p>
+
 
 
 ---
