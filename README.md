@@ -9,6 +9,16 @@ Predict the likelihood of a borrower defaulting based on financial history, inco
 
 ---
 
+## ❓ Why does it matter?
+
+Credit risk modelling is a **critical part of financial decision-making**. Accurate predictions can:
+
+- Prevent loan defaults  
+- Help lenders make informed decisions  
+- Improve access to credit for low-risk borrowers  
+
+This app showcases how **machine learning can automate and enhance** the risk evaluation process in real-time.
+
 ## 🧠 Key Features
 
 - ✅ Predicts **Default Probability**, **Credit Score**, and **Risk Rating**
@@ -17,6 +27,36 @@ Predict the likelihood of a borrower defaulting based on financial history, inco
 - 📊 Interactive UI with sliders, metrics, dropdowns, and real-time risk evaluation
 - 🖼️ Animated and responsive interface with **Lottie** integration
 - 🚀 Deployed publicly using **Streamlit Cloud**
+
+---
+
+## ⚙️ How it Works
+
+1. User inputs key features:
+   - Income, loan amount, credit history, loan tenure, DPD, open accounts, etc.
+2. The inputs are sent to a preprocessing pipeline (`prediction_helper.py`)
+3. Features are cleaned, scaled, and formatted to match model expectations
+4. The trained **XGBoost** model (`model_data.joblib`) predicts:
+   - 🔻 **Default Probability**
+   - 📈 **Credit Score**
+   - 🟡 **Risk Rating**
+5. Output is displayed dynamically using **Streamlit metrics and visuals**  
+   - Risk > 0.5 → 🔴 High Risk  
+   - Risk ≤ 0.5 → 🟢 Low Risk
+
+---
+
+
+## 📊 Visual Insights
+
+These visualizations helped drive model development and explainability by revealing data patterns, feature impact, and model performance:
+
+| Visualization | Description |
+|---------------|-------------|
+| ![KDE Plots](./assets/credit_risk_viz_4.png) | KDE plots comparing feature distributions for defaulters vs non-defaulters to identify impactful predictors for credit risk modeling. |
+| ![Correlation Heatmap](./assets/credit_risk_viz_8.png) | Shows feature relationships and correlation with default status to guide feature engineering and reduce multicollinearity. |
+| ![Feature Importance](./assets/credit_risk_viz_9.png) | Ranks key features influencing credit risk using logistic regression coefficients, improving model transparency and feature understanding. |
+| ![ROC Curve](./assets/credit_risk_viz_10.png) | ROC curve illustrating model performance trade-offs and AUC score, helping evaluate predictive power across thresholds. |
 
 ---
 
@@ -115,3 +155,21 @@ This project is licensed under the [MIT License](LICENSE).
 ---
 
 
+
+<!---
+
+## 🎥 App in Action
+
+> 👉 Replace the GIF below with a real app demo  
+![App Demo](./assets/demo.gif)
+
+---
+
+## 🖼️ Screenshots
+
+| User Input Interface | Prediction Output |
+|----------------------|-------------------|
+| ![Input](./assets/screenshot_1.png) | ![Output](./assets/screenshot_2.png) |
+
+---
+-->
