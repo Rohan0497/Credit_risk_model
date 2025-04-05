@@ -10,10 +10,14 @@ Predict the likelihood of a borrower defaulting based on financial history, inco
 ---
 ## 🎥 App in Action
 
- 
-![App Demo](./assets/demo.gif)
+<p align="center" style="text-align: center;">
+  <a href="https://mlprojcreditriskmodel.streamlit.app" target="_blank">
+    <img src="./assets/demo.gif" alt="App Demo" style="width: 100%; max-width: 1000px; border-radius: 10px;" />
+  </a>
+  <br/>
+  <em>▶ Click the image to launch the interactive demo</em>
+</p>
 
----
 ## ❓ Why does it matter?
 
 Credit risk modelling is a **critical part of financial decision-making**. Accurate predictions can:
