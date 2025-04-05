@@ -10,7 +10,7 @@ Predict the likelihood of a borrower defaulting based on financial history, inco
 ---
 ## 🎥 App in Action
 
-> 👉 Replace the GIF below with a real app demo  
+ 
 ![App Demo](./assets/demo.gif)
 
 ---
