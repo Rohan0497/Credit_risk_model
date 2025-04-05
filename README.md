@@ -139,7 +139,13 @@ This project is licensed under the [MIT License](LICENSE).
 
 
 ---
+## 🖼️ Screenshots
 
+| User Input Interface | Prediction Output |
+|----------------------|-------------------|
+| ![Input](./assets/screenshot_1.png) | ![Output](./assets/screenshot_2.png) |
+
+---
 
 
 <!---
