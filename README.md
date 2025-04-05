@@ -5,19 +5,21 @@ An end-to-end **Credit Risk Modelling** app using machine learning, deployed wit
 
 Predict the likelihood of a borrower defaulting based on financial history, income, loan details, and behavioral metrics. Built as part of a portfolio project to demonstrate data science and model deployment skills.
 
-🔗 **Live App**: [mlprojcreditriskmodel.streamlit.app](https://mlprojcreditriskmodel.streamlit.app/)
+🔗 **Live App**: [Credit Risk Model](https://mlprojcreditriskmodel.streamlit.app/)
 
 ---
-## 🎥 App in Action
+## 🎥 App Demo (Click to Play)
 
-<p align="center" style="text-align: center;">
+<p align="center">
   <a href="https://mlprojcreditriskmodel.streamlit.app" target="_blank">
-    <img src="./assets/demo.gif" alt="App Demo" style="width: 100%; max-width: 1000px; border-radius: 10px;" />
+    <img src="./assets/demo_preview.png" alt="Click to play demo" style="max-width: 1000px; width: 100%; border-radius: 10px;" />
   </a>
   <br/>
-  <em>▶ Click the image to launch the interactive demo</em>
+  <em>▶ Click to launch the live interactive demo</em>
 </p>
 
+
+---
 ## ❓ Why does it matter?
 
 Credit risk modelling is a **critical part of financial decision-making**. Accurate predictions can:
