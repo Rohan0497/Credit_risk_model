@@ -8,7 +8,12 @@ Predict the likelihood of a borrower defaulting based on financial history, inco
 🔗 **Live App**: [mlprojcreditriskmodel.streamlit.app](https://mlprojcreditriskmodel.streamlit.app/)
 
 ---
+## 🎥 App in Action
 
+> 👉 Replace the GIF below with a real app demo  
+![App Demo](./assets/demo.gif)
+
+---
 ## ❓ Why does it matter?
 
 Credit risk modelling is a **critical part of financial decision-making**. Accurate predictions can:
@@ -18,6 +23,8 @@ Credit risk modelling is a **critical part of financial decision-making**. Accur
 - Improve access to credit for low-risk borrowers  
 
 This app showcases how **machine learning can automate and enhance** the risk evaluation process in real-time.
+
+
 
 ## 🧠 Key Features
 
@@ -151,12 +158,7 @@ This project is licensed under the [MIT License](LICENSE).
 
 <!---
 
-## 🎥 App in Action
 
-> 👉 Replace the GIF below with a real app demo  
-![App Demo](./assets/demo.gif)
-
----
 
 ## 🖼️ Screenshots
 
