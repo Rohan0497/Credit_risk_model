@@ -17,7 +17,7 @@ Predict the likelihood of a borrower defaulting based on financial history, inco
     <img src="./assets/demo.gif" alt="App Demo" style="width: 100%; max-width: 1000px; border-radius: 10px;" />
   </a>
   <br/>
-  <em>▶ Click the image to launch the interactive demo</em>
+  <em>▶ Click the gif to launch the interactive demo</em>
 </p>
 
 
