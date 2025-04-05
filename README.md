@@ -30,19 +30,20 @@ This app showcases how **machine learning can automate and enhance** the risk ev
 
 ---
 
-## ⚙️ How it Works
+##  How It Works
 
-1. User inputs key features:
-   - Income, loan amount, credit history, loan tenure, DPD, open accounts, etc.
-2. The inputs are sent to a preprocessing pipeline (`prediction_helper.py`)
-3. Features are cleaned, scaled, and formatted to match model expectations
-4. The trained **XGBoost** model (`model_data.joblib`) predicts:
-   - 🔻 **Default Probability**
-   - 📈 **Credit Score**
-   - 🟡 **Risk Rating**
-5. Output is displayed dynamically using **Streamlit metrics and visuals**  
-   - Risk > 0.5 → 🔴 High Risk  
-   - Risk ≤ 0.5 → 🟢 Low Risk
+- Users provide input values such as **age**, **income**, **loan amount**, **credit history**, **loan tenure**, and other financial indicators.
+- The **Streamlit UI** captures the inputs and sends them to `prediction_helper.py`.
+- Inputs are **preprocessed**, converted into model-ready format, and **scaled** using saved preprocessing logic.
+- The trained prediction model (`model_data.joblib`) is used to generate:
+  - 📉 **Default Probability**
+  - 🏅 **Credit Score**
+  - ✅ **Risk Rating** (e.g., Low, Medium, High)
+- Based on the result:
+  - If **Default Probability > 0.5** → User is flagged as **high risk** (🔴)
+  - Else → User is marked **low risk** (🟢)
+- The result is instantly displayed in the UI using **dynamic metric cards** and **visual cues**.
+
 
 ---
 
@@ -124,22 +125,7 @@ streamlit run app/app.py
 
 ---
 
-##  How It Works
 
-- Users provide input values such as **age**, **income**, **loan amount**, **credit history**, **loan tenure**, and other financial indicators.
-- The **Streamlit UI** captures the inputs and sends them to `prediction_helper.py`.
-- Inputs are **preprocessed**, converted into model-ready format, and **scaled** using saved preprocessing logic.
-- The trained prediction model (`model_data.joblib`) is used to generate:
-  - 📉 **Default Probability**
-  - 🏅 **Credit Score**
-  - ✅ **Risk Rating** (e.g., Low, Medium, High)
-- Based on the result:
-  - If **Default Probability > 0.5** → User is flagged as **high risk** (🔴)
-  - Else → User is marked **low risk** (🟢)
-- The result is instantly displayed in the UI using **dynamic metric cards** and **visual cues**.
-
-
----
 
 ## 📝 License
 
