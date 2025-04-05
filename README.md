@@ -54,16 +54,16 @@ Below are insights gained from data exploration and model diagnostics:
 
 | Screenshot | Description |
 |-----------|-------------|
-| ![Viz 1](./assets/credit_risk_viz_1.png) | Box plots for continuous variables — detect outliers and compare spread. |
+| ![Viz 1](./assets/credit_risk_viz_1.png) | Box plots for continuous variables : Detect outliers and compare spread. |
 | ![Viz 2](./assets/credit_risk_viz_2.png) | Additional box plots showing feature behavior across default classes. |
-| ![Viz 3](./assets/credit_risk_viz_3.png) | KDE plot for age — visualizes risky age groups. |
-| ![Viz 4](./assets/credit_risk_viz_4.png) | Grid of KDE plots — feature separation between defaulters and non-defaulters. |
-| ![Viz 5](./assets/credit_risk_viz_5.png) | KDE for loan-to-income ratio — highlights risk clusters. |
-| ![Viz 6](./assets/credit_risk_viz_6.png) | KDE for delinquency ratio — identifies high-risk borrowers. |
-| ![Viz 7](./assets/credit_risk_viz_7.png) | KDE of avg DPD — more delay correlates with risk. |
-| ![Viz 8](./assets/credit_risk_viz_8.png) | Correlation heatmap — guides feature selection and reduction. |
+| ![Viz 3](./assets/credit_risk_viz_3.png) | KDE plot for age: Visualizes risky age groups. |
+| ![Viz 4](./assets/credit_risk_viz_4.png) | Grid of KDE plots : Feature separation between defaulters and non-defaulters. |
+| ![Viz 5](./assets/credit_risk_viz_5.png) | KDE for loan-to-income ratio : Highlights risk clusters. |
+| ![Viz 6](./assets/credit_risk_viz_6.png) | KDE for delinquency ratio : Identifies high-risk borrowers. |
+| ![Viz 7](./assets/credit_risk_viz_7.png) | KDE of avg DPD: More delay correlates with risk. |
+| ![Viz 8](./assets/credit_risk_viz_8.png) | Correlation heatmap: Guides feature selection and reduction. |
 | ![Viz 9](./assets/credit_risk_viz_9.png) | Feature importance from Logistic Regression. |
-| ![Viz 10](./assets/credit_risk_viz_10.png) | ROC Curve — evaluates model's classification ability. |
+| ![Viz 10](./assets/credit_risk_viz_10.png) | ROC Curve : Evaluates model's classification ability. |
 | ![Viz 11](./assets/credit_risk_viz_11.png) | Final feature importance from trained model. |
 
 ---
