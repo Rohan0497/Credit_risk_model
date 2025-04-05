@@ -38,7 +38,7 @@ Predict the likelihood of a borrower defaulting based on financial history, inco
 │   ├── customers.csv
 │   └── loans.csv                     # Source datasets
 │
-├── credit_risk_model_codebasics.ipynb  # Development notebook
+├── credit_risk_model.ipynb  # Development notebook
 ├── requirements.txt
 ├── README.md
 ├── LICENSE
