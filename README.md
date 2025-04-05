@@ -50,14 +50,21 @@ This app showcases how **machine learning can automate and enhance** the risk ev
 
 ## 📊 Visual Insights
 
-These visualizations helped drive model development and explainability by revealing data patterns, feature impact, and model performance:
+Below are insights gained from data exploration and model diagnostics:
 
-| Visualization | Description |
-|---------------|-------------|
-| ![KDE Plots](./assets/credit_risk_viz_4.png) | KDE plots comparing feature distributions for defaulters vs non-defaulters to identify impactful predictors for credit risk modeling. |
-| ![Correlation Heatmap](./assets/credit_risk_viz_8.png) | Shows feature relationships and correlation with default status to guide feature engineering and reduce multicollinearity. |
-| ![Feature Importance](./assets/credit_risk_viz_9.png) | Ranks key features influencing credit risk using logistic regression coefficients, improving model transparency and feature understanding. |
-| ![ROC Curve](./assets/credit_risk_viz_10.png) | ROC curve illustrating model performance trade-offs and AUC score, helping evaluate predictive power across thresholds. |
+| Screenshot | Description |
+|-----------|-------------|
+| ![Viz 1](./assets/credit_risk_viz_1.png) | Box plots for continuous variables — detect outliers and compare spread. |
+| ![Viz 2](./assets/credit_risk_viz_2.png) | Additional box plots showing feature behavior across default classes. |
+| ![Viz 3](./assets/credit_risk_viz_3.png) | KDE plot for age — visualizes risky age groups. |
+| ![Viz 4](./assets/credit_risk_viz_4.png) | Grid of KDE plots — feature separation between defaulters and non-defaulters. |
+| ![Viz 5](./assets/credit_risk_viz_5.png) | KDE for loan-to-income ratio — highlights risk clusters. |
+| ![Viz 6](./assets/credit_risk_viz_6.png) | KDE for delinquency ratio — identifies high-risk borrowers. |
+| ![Viz 7](./assets/credit_risk_viz_7.png) | KDE of avg DPD — more delay correlates with risk. |
+| ![Viz 8](./assets/credit_risk_viz_8.png) | Correlation heatmap — guides feature selection and reduction. |
+| ![Viz 9](./assets/credit_risk_viz_9.png) | Feature importance from Logistic Regression. |
+| ![Viz 10](./assets/credit_risk_viz_10.png) | ROC Curve — evaluates model's classification ability. |
+| ![Viz 11](./assets/credit_risk_viz_11.png) | Final feature importance from trained model. |
 
 ---
 
@@ -139,13 +146,7 @@ This project is licensed under the [MIT License](LICENSE).
 
 
 ---
-## 🖼️ Screenshots
 
-| User Input Interface | Prediction Output |
-|----------------------|-------------------|
-| ![Input](./assets/screenshot_1.png) | ![Output](./assets/screenshot_2.png) |
-
----
 
 
 <!---
